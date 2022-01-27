@@ -1,9 +1,9 @@
 <?php
 // used to connect to the database
-$host = "localhost";
-$db_name = "mysql";
+$host = "mysql";
+$db_name = "mysqldb";
 $username = "user";
-$password = "root";
+$password = "password";
 
 try {
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);

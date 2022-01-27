@@ -1,7 +1,3 @@
 <?php
-    if(isset($_POST['searchterm'])){
-        echo htmlspecialchars($_POST['searchterm'], ENT_QUOTES);
-    }
+    include '../config/database.php';
 ?>
-
-<h1>Hello World!</h1>
